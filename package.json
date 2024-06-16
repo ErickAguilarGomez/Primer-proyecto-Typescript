@@ -1,0 +1,15 @@
+{
+  "name": "primer-proyecto-typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start:types": "tsc basics/types.ts --outdir dist/ && node dist/types.js",
+    "start:examples": "tsc basics/examples.ts --outdir dist/ && node dist/examples.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
